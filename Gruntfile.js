@@ -9,7 +9,7 @@ module.exports = function(grunt) {
           'build/js/app.js': 'src/js/main.js'
         },
         options: {
-          transform: ['reactify']
+          transform: ['babelify']
         }
       }
     },

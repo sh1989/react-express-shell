@@ -1,9 +1,4 @@
-var React = require("react");
-
-var Hello = React.createClass({
-  render: function() {
-    return <div>Hello {this.props.name}</div>;
-  }
-});
+import React from 'react';
+import Hello from './hello';
 
 React.render(<Hello name="sam" />, document.getElementById('container'));

@@ -11,3 +11,4 @@ It is expected that the following node modules are installed globally:
 * react-tools
 * grunt-cli
 * browserify
+* babel
